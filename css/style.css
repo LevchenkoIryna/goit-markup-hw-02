@@ -1,0 +1,194 @@
+/* цвет основного текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* белый #FFFFFF */
+
+/* белый с прозразностью для футера rgba(0, 0, 0, 0.6) */
+
+/* акцент #2196F3 */
+
+/* второй цвет лого хедер #000000 */
+
+/* hero фон 2F303A */
+
+/* вторичный фон F5F4FA */
+
+/* вторичный цвет фона #F5F5F5 */
+
+:root {
+	--basic-text-color: #212121;
+	--second-text-color: #757575;
+	--accent-color: #2196f3;
+	--basic-white-color: #ffffff;
+    --bcg-color-dark: #2F303A;
+    --bcg-color-white: #F5F5F5;
+    --bcg-color-gray: #F5F4FA;
+
+}
+
+body {
+	background-color: var(--basic-white-color);
+	color: var(--basic-text-color);
+}
+
+.list {
+	list-style: none;
+}
+
+.logo {
+	color: var(--accent-color);
+}
+
+.logo-black {
+	color: #000000;
+}
+
+
+.logo:hover{
+	color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+	color: var(--basic-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+
+.site-nav .link.current {
+	color: var(--accent-color);
+}
+
+.auth-nav .link {
+	color: var(--second-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+	color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--bcg-color-dark);
+}
+
+.hero-title {
+    color: var(--basic-white-color);
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--basic-white-color);
+}
+
+/* Feature */
+
+.feature {
+    background-color: var(--bcg-color-white);
+}
+
+.feature-title {
+    color: var(--basic-text-color);
+}
+
+.feature-text {
+    color: var(--second-text-color);
+}
+
+/* Work */
+
+.work {
+    background-color: var(--bcg-color-white);
+}
+
+.work-title {
+    color: var(--basic-text-color);
+}
+
+/* Team */
+
+.team{
+    background-color: var(--bcg-color-gray);
+}
+
+.team-box {
+    background-color: var(--basic-white-color);
+}
+
+.team-title{
+    color: var(--basic-text-color);
+}
+
+.team-box-title{
+    color: var(--basic-text-color);
+}
+
+.team-text{
+    color: var(--second-text-color);
+}
+
+/* Footer */
+
+.logo-white{
+    color: var(--basic-white-color);
+}
+
+.contacts{
+    background-color: var(--bcg-color-dark);
+}
+
+.contacts-link-map{
+    color: var(--basic-white-color);
+}
+
+.contacts-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-link-map:hover,
+.contacts-link:hover{
+    color: var(--accent-color);
+}
+
+
+/* Portfolio */
+
+/* Menu */
+.menu{
+    background-color: var(--bcg-color-white);
+}
+
+.menu-button-current{
+    background-color: var(--accent-color);
+    color: var(--basic-white-color);
+}
+
+.menu-button{
+    background-color: var(--bcg-color-gray);
+    color: var(--basic-text-color);
+}
+
+/* Example */
+
+.example{
+    background-color: var(--bcg-color-white);
+}
+
+.example-box{
+    background-color: var(--basic-white-color);
+}
+
+.example-title{
+    color: var(--basic-text-color);
+}
+
+.example-text {
+    color: var(--second-text-color);
+}

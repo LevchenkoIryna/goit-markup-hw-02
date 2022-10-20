@@ -5,114 +5,119 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Портфоліо</title>
-        <link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
 		<header>
 			<nav>
-				<a href="" lang="en">WebStudio</a>
+				<a href="./index.html" class="logo" lang="en">Web<span class="logo-black">Studio</span></a>
 
-				<ul>
-					<li><a href="">Студія</a></li>
-					<li><a href="./portfolio.html">Портфоліо</a></li>
-					<li><a href="">Контакти</a></li>
+				<ul class="site-nav list">
+					<li><a href="" class="link">Студія</a></li>
+					<li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+					<li><a href="" class="link">Контакти</a></li>
 				</ul>
 			</nav>
 
-			<ul>
-				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+			<ul class="auth-nav list">
+				<li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+				<li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
 			</ul>
 		</header>
 
 		<main>
-			<section>
-				<ul>
-					<li><button type="button">Усі</button></li>
-					<li><button type="button">Веб-сайти</button></li>
-					<li><button type="button">Додатки</button></li>
-					<li><button type="button">Дизайн</button></li>
-					<li><button type="button">Маркетинг</button></li>
+			<section class="menu">
+				<ul class="list">
+					<li><button type="button" class="menu-button-current">Усі</button></li>
+					<li><button type="button" class="menu-button">Веб-сайти</button></li>
+					<li><button type="button" class="menu-button">Додатки</button></li>
+					<li><button type="button" class="menu-button">Дизайн</button></li>
+					<li><button type="button" class="menu-button">Маркетинг</button></li>
 				</ul>
-
-				<ul>
-					<li>
+			</section>
+			<section class="example">
+				<ul class="list">
+					<li class="example-box">
 						<img
 							src="./imgportfolio/technokryak.jpg"
 							alt="
-                        Ноутбук в якому зображений проєкт"
+                    Ноутбук в якому зображений проєкт"
 							wigth="370"
 							height="294"
 						/>
-						<h3>Технокряк</h3>
-						<p>Веб-сайт</p>
+						<h3 class="example-title">Технокряк</h3>
+						<p class="example-text">Веб-сайт</p>
 					</li>
-					<li>
+					<li class="example-box">
 						<img src="./imgportfolio/neworlean.jpg" alt="Два баскетболіста з м'ячем" wigth="370" height="294" />
-						<h3 lang="en">Постер New Orlean vs Golden Star</h3>
-						<p>Дизайн</p>
+						<h3 class="example-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+						<p class="example-text">Дизайн</p>
 					</li>
-					<li>
+					<li class="example-box">
 						<img src="./imgportfolio/seafood.jpg" alt="Вивіска ресторану" wigth="370" height="294" />
-						<h3 lang="en">Ресторан Seafood</h3>
-						<p>Додаток</p>
+						<h3 class="example-title">Ресторан <span lang="en">Seafood</span></h3>
+						<p class="example-text">Додаток</p>
 					</li>
-					<li>
+					<li class="example-box">
 						<img src="./imgportfolio/prime.jpg" alt="Навушники" wigth="370" height="294" />
-						<h3 lang="en">Проєкт Prime</h3>
-						<p>Маркетинг</p>
+						<h3 class="example-title">Проєкт <span lang="en">Prime</span></h3>
+						<p class="example-text">Маркетинг</p>
 					</li>
-					<li>
+					<li class="example-box">
 						<img src="./imgportfolio/boxes.jpg" alt="Дві бумажні коробки" wigth="370" height="294" />
-						<h3 lang="en">Проєкт Boxes</h3>
-						<p>Додаток</p>
+						<h3 class="example-title">Проєкт <span lang="en">Boxes</span></h3>
+						<p class="example-text">Додаток</p>
 					</li>
-					<li>
+					<li class="example-box">
 						<img
 							src="./imgportfolio/insphasnoborders.jpg"
 							alt="Монітор в якому відображається проєкт"
 							wigth="370"
 							height="294"
 						/>
-						<h3 lang="en">Inspiration has no Borders</h3>
-						<p>Веб-сайт</p>
+						<h3 class="example-title" lang="en">Inspiration has no Borders</h3>
+						<p class="example-text">Веб-сайт</p>
 					</li>
-					<li>
+					<li class="example-box">
 						<img src="./imgportfolio/limitededition.jpg" alt="Розворот журналу" wigth="370" height="294" />
-						<h3 lang="en">Видання Limited Edition</h3>
-						<p>Дизайн</p>
+						<h3 class="example-title">Видання <span lang="en">Limited Edition</span></h3>
+						<p class="example-text">Дизайн</p>
 					</li>
-					<li>
+					<li class="example-box">
 						<img src="./imgportfolio/lab.jpg" alt="Бірка для проєкту" wigth="370" height="294" />
-						<h3 lang="en">Проєкт LAB</h3>
-						<p>Маркетинг</p>
+						<h3 class="example-title">Проєкт <span lang="en">LAB</span></h3>
+						<p class="example-text">Маркетинг</p>
 					</li>
-					<li>
+					<li class="example-box">
 						<img
 							src="./imgportfolio/growingbusiness.jpg"
 							alt="Ноутбук в якому відкритий додаток"
 							wigth="370"
 							height="294"
 						/>
-						<h3 lang="en">Growing Business</h3>
-						<p>Додаток</p>
+						<h3 class="example-title" lang="en">Growing Business</h3>
+						<p class="example-text">Додаток</p>
 					</li>
-				</ul>
-			</section>
+				</ul></section
+			>
 		</main>
-		<footer>
-			<a href="" lang="en">WebStudio</a>
+		<footer class="contacts">
+			<a href="" class="logo" lang="en">Web<span class="logo-white">Studio</span></a>
 			<address>
-				<ul>
+				<ul class="list">
 					<li>
-						<a href="https://goo.gl/maps/Nbyd7draAB5cvBSi6" target="_blank" rel="nooperer nofollow noreferrer"
+						<a
+							class="contacts-link-map"
+							href="https://goo.gl/maps/Nbyd7draAB5cvBSi6"
+							target="_blank"
+							rel="nooperer nofollow noreferrer"
 							>м. Київ, пр-т Лесі Українки, 26</a
 						>
 					</li>
 					<li>
-						<a href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+						<a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
 					</li>
-					<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+					<li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
 				</ul>
 			</address>
 		</footer>
