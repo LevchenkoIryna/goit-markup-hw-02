@@ -110,9 +110,7 @@ body {
 
 /* Feature */
 
-.feature {
-  background-color: var(--basic-white-color);
-}
+/* .feature {}*/
 
 .feature-title {
   font-weight: 700;
@@ -126,9 +124,7 @@ body {
 
 /* Work */
 
-.work {
-  background-color: var(--basic-white-color);
-}
+/* .work {} */
 
 .work-title,
 .team-title {
